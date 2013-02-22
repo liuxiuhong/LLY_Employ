@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F98E0CF16D7223C00D4ED0F /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F98E0CE16D7223C00D4ED0F /* TabbarViewController.m */; };
 		0FDBF34216D71C96002CCA57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDBF34116D71C96002CCA57 /* UIKit.framework */; };
 		0FDBF34416D71C96002CCA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDBF34316D71C96002CCA57 /* Foundation.framework */; };
 		0FDBF34616D71C96002CCA57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDBF34516D71C96002CCA57 /* CoreGraphics.framework */; };
@@ -269,6 +270,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F98E0CD16D7223C00D4ED0F /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		0F98E0CE16D7223C00D4ED0F /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
 		0FDBF33D16D71C96002CCA57 /* LLY_Employ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLY_Employ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDBF34116D71C96002CCA57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FDBF34316D71C96002CCA57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -629,6 +632,8 @@
 		0FDBF57916D7207D002CCA57 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F98E0CD16D7223C00D4ED0F /* TabbarViewController.h */,
+				0F98E0CE16D7223C00D4ED0F /* TabbarViewController.m */,
 				0FDBF57A16D7207D002CCA57 /* ArticleViewController.h */,
 				0FDBF57B16D7207D002CCA57 /* ArticleViewController.m */,
 				0FDBF57C16D7207D002CCA57 /* LoginViewController.h */,
@@ -1268,6 +1273,7 @@
 				0FDBF6A516D7207D002CCA57 /* Searcher.m in Sources */,
 				0FDBF6A616D7207D002CCA57 /* ZhiLian.m in Sources */,
 				0FDBF6A716D7207D002CCA57 /* Manager.m in Sources */,
+				0F98E0CF16D7223C00D4ED0F /* TabbarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
